@@ -11,6 +11,7 @@
 
 .enterSalary {
   margin: 50px;
+  height: auto;
 }
 
 .salary-form {
@@ -186,12 +187,57 @@ tfoot td {
   justify-content: space-between;
 }
 
+.credit-card{
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
+.given-loan{
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
+.taken-loan{
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
 #balance-text {
   color: #e2e2b6;
   margin-right: 20px;
 }
 
+#credit-card-text{
+  color: #e2e2b6;
+  margin-right: 20px;
+}
+
+#given-loan-text{
+  color: #e2e2b6;
+  margin-right: 20px;
+}
+
+#taken-loan-text{
+  color: #e2e2b6;
+  margin-right: 20px;
+}
+
 #balance-amount {
+  color: #e2e2b6;
+}
+
+#credit-card-amount{
+  color: #e2e2b6;
+}
+
+#given-loan-amount{
+  color: #e2e2b6;
+}
+
+#taken-loan-amount{
   color: #e2e2b6;
 }
 
@@ -211,13 +257,42 @@ padding-top: 30px;
     display: flex;
     border: 2px white solid;
    width:240px;
- 
   
     padding-top: 10px;
     background-color: #535353;
     
   }
 
+  .credit-card{
+    display: flex;
+    border: 2px white solid;
+   width:240px;
+  
+    padding-top: 10px;
+    background-color: #535353;
+    
+  }
+
+  .given-loan {
+    display: flex;
+    border: 2px white solid;
+   width:240px;
+  
+    padding-top: 10px;
+    background-color: #535353;
+    
+  }
+
+
+  .taken-loan {
+    display: flex;
+    border: 2px white solid;
+   width:240px;
+  
+    padding-top: 10px;
+    background-color: #535353;
+    
+  }
 
   #balance-text {
     color: #ffff00;
@@ -232,6 +307,45 @@ padding-top: 30px;
   padding-right: 10px;
 }
 
+#credit-card-text {
+  color: #ffff00;
+  /* margin-right: 20px; */
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#credit-card-amount {
+color: #ffffff;
+font-size: 18px;
+padding-right: 10px;
+}
+
+#given-loan-text {
+  color: #ffff00;
+  /* margin-right: 20px; */
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#given-loan-amount {
+color: #ffffff;
+font-size: 18px;
+padding-right: 10px;
+}
+
+
+#taken-loan-text {
+  color: #ffff00;
+  /* margin-right: 20px; */
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#taken-loan-amount {
+color: #ffffff;
+font-size: 18px;
+padding-right: 10px;
+}
   .expenses-list {
     margin: 5px;
   }
@@ -407,6 +521,12 @@ tfoot td {
   background-color: #6eacda;
   color: #021526;
   font-size: 15px;
+}
+
+
+.enterSalary {
+  margin: 50px;
+  height: 350px;
 }
 
 
