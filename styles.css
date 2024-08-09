@@ -229,6 +229,10 @@ tfoot td {
     border: 2px white solid;
   }
 
+  #amount-input {
+    width: 200px;
+  }
+
   #enterSalaryText {
     color: #6eacda;
     font-size: 25px;
@@ -248,27 +252,35 @@ tfoot td {
 
   .category-container {
     display: flex; 
-   
+    padding-bottom: 20px;
 
   }
 
   #category-container-Heading {
-    color: #e2e2b6;
-    font-size: 18px;
+   
+    margin-left: -20px ;
+   
    
   }
-/* 
-  #category-select {
+
+ #category-select {
     width: auto;
   }
 
   #amount-input {
-   
+    width: auto;
   }
 
   #date-input {
-    margin-left: 80px;
-  } */
+   
+    width: auto;
+  } 
+
+  #enterSalaryText {
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+  }
 
   #add-btn {
     width: 100px;
