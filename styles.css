@@ -243,9 +243,7 @@ padding-top: 30px;
     border: 2px white solid;
   }
 
-  #amount-input {
-    width: 200px;
-  }
+
 
   
 
@@ -274,18 +272,19 @@ padding-top: 30px;
   }
 
   #amount-input {
-    width: auto;
-    width: 180px;
+    width: 177px;
+    font-size: 18px;
   }
 
   #date-input {
    margin-left: 80px;
-    width: auto;
+   width: 177px;
+    font-size: 18px;
   } 
 
   #enterSalaryText {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 16 px;
     text-align: center;
   }
 
@@ -301,7 +300,7 @@ padding-top: 30px;
   #category-container-Heading {
     color: #e2e2b6;
     font-size: 18px;
-    margin-left: -20px;
+    margin-left: -30px;
   }
 
   .col-2 {
@@ -386,5 +385,29 @@ padding-top: 30px;
   padding: 8px 2px;
   /* display: none; */
 }
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #6eacda;
+  color: #021526;
+  font-size: 18px !important;
+}
+
+th {
+  background-color: #03346e;
+  color: #e2e2b6;
+  font-size: 15px;
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: #6eacda;
+  color: #021526;
+  font-size: 15px;
+}
+
 
 }
