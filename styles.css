@@ -1,0 +1,327 @@
+.main-container {
+  background-color: #021526;
+  height: 1000px;
+}
+
+#top-heading {
+  text-align: center;
+  color: #e2e2b6;
+  padding-top: 20px;
+}
+
+.enterSalary {
+  margin: 50px;
+}
+
+.salary-form {
+  display: flex;
+}
+
+#enterSalaryText {
+  color: #6eacda;
+  font-size: 30px;
+}
+
+#salaryInput {
+  width: 300px;
+
+  font-size: 20px;
+  margin-top: 20px;
+  border: 2px white solid;
+}
+
+#submitSalaryBtn {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #03346e;
+  color: white;
+  margin: 20px;
+  padding: 8px 2px;
+}
+
+#submitSalaryBtn:hover {
+  background-color: #6eacda;
+  color: #ffffff;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border: 2px #e2e2b6 solid;
+  padding: 20px;
+}
+
+.col-1 {
+  width: auto !important;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.category-container {
+  display: flex; /* Make the container for h2 and select a flex container */
+  align-items: center; /* Vertically align h2 and select */
+  padding-left: 50px;
+}
+
+#category-select {
+  margin-left: 20px;
+}
+
+#category-container-Heading {
+  color: #e2e2b6;
+}
+
+.col-2 {
+  width: auto !important;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.col-3 {
+  width: auto !important;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.col-4 {
+  width: auto !important;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#amount-input {
+  margin-left: 20px;
+}
+
+#date-input {
+  margin-left: 20px;
+}
+#add-btn {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #03346e;
+  color: white;
+}
+
+#add-btn:hover {
+  background-color: #6eacda;
+}
+
+#clear-btn {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #6e034c;
+  color: white;
+  display: none;
+}
+
+#resetDataButton {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #6e034c;
+  color: white;
+  margin: 20px;
+  padding: 8px 2px;
+  /* display: none; */
+}
+
+.expenses-list {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #6eacda;
+  color: #021526;
+  font-size: 25px !important;
+}
+
+th {
+  background-color: #03346e;
+  color: #e2e2b6;
+  font-size: 15px;
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: #6eacda;
+  color: #021526;
+  font-size: 15px;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.balance {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
+#balance-text {
+  color: #e2e2b6;
+  margin-right: 20px;
+}
+
+#balance-amount {
+  color: #e2e2b6;
+}
+
+@media only screen and (max-width: 700px) {
+  .top-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px #e2e2b6 solid;
+    padding: 20px;
+    margin-top: 60px;
+  }
+
+  .balance {
+    display: flex;
+    float: left;
+    padding-top: 10px;
+    justify-content: space-between;
+  }
+
+  .expenses-list {
+    margin: 5px;
+  }
+
+  #salaryInput {
+    width: auto;
+    font-size: 17px;
+    margin-top: 20px;
+    border: 2px white solid;
+  }
+
+  #enterSalaryText {
+    color: #6eacda;
+    font-size: 25px;
+  }
+
+  .salary-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-1 {
+    width: auto !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .category-container {
+    display: flex; /* Make the container for h2 and select a flex container */
+    align-items: center; /* Vertically align h2 and select */
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+
+  #category-container-Heading {
+    color: #e2e2b6;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  #category-select {
+    margin-left: 30px;
+  }
+
+  #amount-input {
+    margin-left: 17px;
+  }
+
+  #date-input {
+    margin-left: 80px;
+  }
+
+  #add-btn {
+    width: 100px;
+    border-radius: 20px;
+    background-color: #03346e;
+    color: white;
+    margin-left: 250px;
+    margin-top: 40px;
+  }
+
+  #category-container-Heading {
+    color: #e2e2b6;
+    font-size: 20px;
+  }
+
+  .col-2 {
+    width: auto !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .col-3 {
+    width: auto !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .col-4 {
+    width: auto !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #6eacda;
+    color: #021526;
+    font-size: 20px !important;
+  }
+
+  th {
+    background-color: #03346e;
+    color: #e2e2b6;
+    font-size: 20px;
+  }
+
+  tfoot td {
+    font-weight: bold;
+    background-color: #6eacda;
+    color: #021526;
+    font-size: 20px;
+  }
+
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
