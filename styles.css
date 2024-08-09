@@ -207,6 +207,8 @@ tfoot td {
     display: flex;
     border: 2px white solid;
    width:240px;
+ 
+  
     padding-top: 10px;
     background-color: #535353;
     
@@ -288,8 +290,8 @@ tfoot td {
     border-radius: 20px;
     background-color: #03346e;
     color: white;
-    margin-left: 250px;
-    margin-top: 40px;
+    /* margin-left: 250px;
+    margin-top: 40px; */
   }
 
   #category-container-Heading {
@@ -313,9 +315,9 @@ tfoot td {
   }
 
   .col-4 {
-    width: auto !important;
     font-size: 20px;
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 
