@@ -71,6 +71,14 @@
 
 #category-container-Heading {
   color: #e2e2b6;
+ 
+}
+
+#amountTableHeading{
+  color: #eeff00;
+  text-align: center;
+  padding: 20px;
+  background-color: #535353;
 }
 
 .col-2 {
@@ -233,10 +241,7 @@ tfoot td {
     width: 200px;
   }
 
-  #enterSalaryText {
-    color: #6eacda;
-    font-size: 25px;
-  }
+  
 
   .salary-form {
     display: flex;
@@ -256,29 +261,25 @@ tfoot td {
 
   }
 
-  #category-container-Heading {
-   
-    margin-left: -20px ;
-   
-   
-  }
 
  #category-select {
     width: auto;
+  margin-left: 30px;
   }
 
   #amount-input {
     width: auto;
+    width: 180px;
   }
 
   #date-input {
-   
+   margin-left: 80px;
     width: auto;
   } 
 
   #enterSalaryText {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -293,7 +294,8 @@ tfoot td {
 
   #category-container-Heading {
     color: #e2e2b6;
-    font-size: 20px;
+    font-size: 18px;
+    margin-left: -20px;
   }
 
   .col-2 {
