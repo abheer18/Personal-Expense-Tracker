@@ -76,10 +76,10 @@
 }
 
 #amountTableHeading{
-  color: #eeff00;
+  color: #16ffcd;
   text-align: center;
   padding: 20px;
-  background-color: #535353;
+  
 }
 
 .col-2 {
@@ -200,7 +200,7 @@ tfoot td {
   .top-row {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-content:center;
 padding-top: 30px;
    margin-top: 10px !important;
    background-color: #052f53;
@@ -285,7 +285,7 @@ padding-top: 30px;
 
   #enterSalaryText {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 
@@ -356,4 +356,35 @@ padding-top: 30px;
     border-radius: 4px;
     cursor: pointer;
   }
+
+.salaryformBtn{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#submitSalaryBtn {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #03346e;
+  color: white;
+  margin: 20px;
+  font-size: 15px;
+  padding: 8px 2px;
+}
+
+#resetDataButton {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #6e034c;
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+  padding: 8px 2px;
+  /* display: none; */
+}
+
 }
